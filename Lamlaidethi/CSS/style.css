@@ -1,0 +1,384 @@
+header{
+    height: 550px;
+    background-color: black;
+    background-image: url(../Images/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: 'Arial Narrow';
+}
+.h1{
+    margin-top: 200px;
+}
+.p1{
+    font-family:'Arial Narrow';
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.a1{
+    font-family:'Arial Narrow';
+    font-size: 15px;
+    border: solid white 0.5px;
+    color: white;
+    padding: 10px;
+}
+.a1:hover{
+    color: red;
+    border: red solid 0.5px;
+}
+#readmore1{
+    font-family: 'Arial Narrow';
+    font-size: larger;
+    color: yellow;
+    margin-top: 10px;
+    text-align: center;
+}
+/* Media cho header */
+@media screen and (max-width: 900px){
+    .h1{
+        margin-top: 120px;
+    }
+}
+/* kết thúc Media cho header */
+.navbar-inverse{
+    border-radius: 0px;
+    opacity: 0.8;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 5px;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+.navbar-brand>img{
+    width: 200px ;
+    margin-top: -15px;
+}
+.navbar-nav{
+    margin-left: 400px;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+    font-family: 'Arial Narrow';
+    font-size: 20px;
+    margin-left: 30px;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: red;
+}
+#part2{
+    background-color:black ;
+    background-size: cover;
+    height: 200px;
+    color: white;
+    font-family: 'Arial Narrow';
+    text-align: center;
+    border-radius: 0px;
+}
+#part2 .part2-h2{
+    font-style: oblique;
+    font-family: 'MonteCarlo', cursive;
+    color: #BD9B76;
+    margin-top: 50px;
+}
+#part3{
+    background-image: url(../Images/banner2.png);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#part3 h3, #part3 h2, #part3 hr,
+#part3 p, #part3 button, #part3 #readmore2{
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 30px ;
+    font-family: 'Arial Narrow';
+    border-radius: 0px;
+}
+#part3 h2{
+    margin-top: -20px;
+}
+#part3 hr{
+    width: 150px;
+}
+#part3 p{
+    font-size: larger;
+}
+#part3 #readmore2{
+    color: yellow;
+    font-size: larger;
+    margin-top: -20px;
+    text-align: left;
+}
+#part3 .picture{
+    position: absolute;
+    left: 51%;
+    top: 15%;
+}
+#part3 img{
+    aspect-ratio: 1/1;
+    width: 400px;
+}
+/* media cho ID part3 */
+@media screen and (max-width: 1150px) {
+    #part3 h3, #part3 h2, #part3 hr, #part3 p, #part3 button, #part3 #readmore2{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 815px) {
+    #part3 h3, #part3 h2, #part3 hr, #part3 p, #part3 button, #part3 #readmore2{
+        margin-left: 10px;
+    }
+    #part3 .picture{
+        position: relative;
+        left: 10px;
+    }
+    #part3 img{
+        aspect-ratio: 1/1;
+        width: 250px;
+    }
+}
+/* kết thúc media cho ID part3 */
+#part4{
+    background-color: black;
+    font-family: 'Arial Narrow';
+    color: #BD9B76;
+    text-align: center;
+}
+.row-p1{
+    color: white;
+    font-size: xx-large;
+}
+#part4-1{
+    background-color: black;
+    font-family: 'Arial Narrow';
+    color: #BD9B76;
+    text-align: justify;
+    word-spacing: 5px;
+}
+#part4-1 h3{
+    margin-left: 300px;
+}
+#part4-1 p{
+    color: white;
+    font-size: xx-large;
+    width: 350px;
+    margin-left: 300px;
+}
+/* media cho part4.1 */
+@media screen and (max-width: 1400px){
+    #part4-1 h3, #part4-1 p{
+      margin-left: 50px;
+    } 
+}
+@media screen and (max-width: 417px){
+    #part4-1 h3, #part4-1 p{
+        margin-left: 50px;
+        font-size: medium;
+        width: 100px;
+    }
+}
+/* kết thúc media cho ID part4.1 */
+#part5{
+    background-image: url(../Images/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#part5 .thumbnail{
+    margin-top: 40px;
+    margin-bottom: 80px;
+    border: none;
+    border-radius: 0px;
+    text-align: center;
+    height: 400px;
+}
+#part5 .img{
+    background-color: #E2D0BC;
+    height: 270px;
+    width: 100%;
+}
+#part5 .thumbnail img{
+    margin-top: 30px;
+}
+#part5 .thumbnail h3{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+#part5 .thumbnail p{
+    font-weight: bolder;
+    font-size: x-large;
+    color: #BD9B76;
+    margin-bottom: 20px;
+}
+#part5-1 button{
+    padding: 15px;
+    border-radius: 0px;
+    border: none;
+    margin-left: 45%;
+    margin-bottom: 20px;
+}
+/* media cho part 5 img */
+@media screen and (max-width:330px){
+    #part5 .thumbnail{
+        height: 450px;
+    }
+    #part5 .thumbnail img{
+        width: 70%;
+    }
+}
+@media screen and (max-width:1200px){
+    #part5 .thumbnail{
+        height: 450px;
+    }
+    #part5 .thumbnail h3{
+    height: 100px;
+}
+}
+/* kết thúc media cho part 5 img */
+
+#part6{
+    background-color: black;
+    color: white;
+    font-family: 'Arial Narrow';
+}
+#part6 h2{
+    font-style: oblique;
+    font-family: 'MonteCarlo', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: #BD9B76;
+}
+#part6 .thumbnail{
+    background-color: black;
+    border: none;
+    font-family: 'Arial Narrow';
+    font-size: 15px;
+    text-align: left;
+    color: #BD9B76;
+    word-spacing: 5px;
+}
+#part6 .thumbnail h3{
+    color: white;
+}
+#part6 .thumbnail .pp1{
+    color: #BD9B76;
+    font-size: 20px;
+}
+#part6 .thumbnail .pp2{
+    color: white;
+}
+#part6 .thumbnail .active{
+    color: #BD9B76;
+}
+#part7{
+    background-image: url(../Images/banner4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'MonteCarlo', cursive;
+    color:white ;
+    text-align: center;
+    font-size: 40px;
+}
+#part7 .part7-p{
+    margin-top: -100px;
+}
+#part7 .quote{
+    color: #BD9B76;
+    font-size: 200px;
+}
+#part8{
+    background-image: url(../Images/Map.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#part8 form{
+    background-color: #E2D0BC;
+    opacity: 0.8;
+    margin-top: 50px ;
+    margin-bottom: 50px ;
+    font-family: 'Arial Narrow';
+    font-style: italic;
+    font-size: 15px;
+
+}
+.form-group{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: none;
+    background-color:transparent;
+    border-bottom: solid black 2px;
+}
+.form-control{
+    background-color: transparent;
+    border: none;
+}
+#textarea{
+    border-top:solid black 2px ;
+    border-radius: 0px;
+}
+#name, #email{
+    margin-left: 15px;
+}
+
+#btn{
+    padding: 10px 25px;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    font-size: 15px;
+}
+/* Media cho form */
+@media screen and (max-width:572px){
+    #btn{
+    margin-left:50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+} 
+/* kết thúc media  */
+#part9{
+    background-color: black;
+    color: white;
+    font-family: 'Arial Narrow';
+    word-spacing: 5px;
+    font-size: 20px;
+}
+#part9 h4{
+    margin-left: 100px;
+    font-size: x-large;
+}
+#part9 li{
+    margin-left: 60px;
+}
+#part9 li a{
+    color: white;
+}
+#part9 li a span{
+    margin-right: 20px;
+}
+.icon{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.icon ion-icon{
+    margin-left: 15px;
+}
+/* media cho part9 */
+@media screen and (max-width: 375px) {
+   #part9 h4{
+    margin-left: 15px;
+    font-size: 20px;
+    }
+    #part9 li{
+    margin-left: -25px;
+    font-size: 15px;
+    }
+}
